@@ -1,0 +1,26 @@
+{
+  "geolocation": {
+    "token": "pk.eyJ1Ijoia2xlcml0aCIsImEiOiJja2tvZHh4Y3YwMDhnMnBvY3ozbHUxdGJvIn0.3zptKSSxJrM5VmfjnkKMYA",
+    "url": {
+      "base": "https://api.mapbox.com",
+      "routes": {
+        "base": "/geocoding/v5",
+        "places": "/mapbox.places/{{city}}.json"
+      }
+    }
+  },
+  "weather": {
+    "token": "f369635965b00ad16ced5da4da4b9f3b",
+    "url": {
+      "base": "https://api.openweathermap.org",
+      "routes": {
+        "base": "/data/2.5",
+        "weather": "/weather"
+      }
+    }
+  },
+  "database": {
+    "path" : "./src/db/data",
+    "fileName": "weather-history.json"
+  }
+}

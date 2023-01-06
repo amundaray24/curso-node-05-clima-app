@@ -1,0 +1,23 @@
+{
+  "name": "05-node-clima-app",
+  "version": "0.0.1",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "node --no-warnings app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@gitlab.com/node_curso/05-node-clima-app.git"
+  },
+  "author": "ANGERSON JOSE AMUNDARAY RENGIFO",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://gitlab.com/node_curso/05-node-clima-app/issues"
+  },
+  "homepage": "https://gitlab.com/node_curso/05-node-clima-app#readme",
+  "dependencies": {
+    "colors": "^1.4.0",
+    "inquirer": "^7.3.3"
+  }
+}
